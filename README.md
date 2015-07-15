@@ -33,18 +33,16 @@ would look like this:
 
 Example output looks like this:
 
-`
-Results
-********************************************************************
-        Errors (write fails + out. req's):      0
-        Maximum Write Time:                     20.25 ms
-        Minimum Write Time:                     0.02 ms
-        Average Time Per Write:                 0.7388 ms
- Total Time: 5.505 seconds. Total Written: 102.40 mbytes
- Average Writes/Second: 18166.23 (Write Size: 1024 bytes)
- Average Throughput/Second: 18.60 mbytes
-********************************************************************
-`
+> Results
+> ********************************************************************
+>        Errors (write fails + out. req's):      0
+>        Maximum Write Time:                     20.25 ms
+>        Minimum Write Time:                     0.02 ms
+>        Average Time Per Write:                 0.7388 ms
+> Total Time: 5.505 seconds. Total Written: 102.40 mbytes
+> Average Writes/Second: 18166.23 (Write Size: 1024 bytes)
+> Average Throughput/Second: 18.60 mbytes
+> ********************************************************************
 
 More advanced options for this test are the concepts of batching and pooling. 
 
