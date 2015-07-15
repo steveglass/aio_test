@@ -27,10 +27,13 @@ Available options:
 By default, the test will attempt to write to disk 100000 times using 16 AIO's, 1024 bytes per write to a single file. The command line 
 would look like this:
 
+`
 ./aio_test -l 1024 -w 16 -t 100000 -f 1
+`
 
 Example output looks like this:
 
+`
 Results
 ********************************************************************
         Errors (write fails + out. req's):      0
@@ -41,6 +44,7 @@ Results
  Average Writes/Second: 18166.23 (Write Size: 1024 bytes)
  Average Throughput/Second: 18.60 mbytes
 ********************************************************************
+`
 
 More advanced options for this test are the concepts of batching and pooling. 
 
