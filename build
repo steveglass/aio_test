@@ -1,0 +1,1 @@
+gcc aio_test.c -Wall -lrt -lpthread -o aio_test 
